@@ -1,0 +1,58 @@
+/* Réinitialisation des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1dc2d7a7;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #021e445b;
+    color: rgb(15, 162, 241);
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Style des sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(9, 185, 185);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(182, 215, 13, 0.1);
+    
+}
+
+/* espace des titre section */
+section h4 {
+    margin-bottom: 15px;
+}
+
+
+
+
+/* Style de l'élément de liste */
+li {
+    margin-bottom: 5px;
+}
+
+/* Style de l'image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style de l'élément aside */
+aside {
+    background-color: #96d3ea;
+    color: rgb(19, 109, 226);
+    padding: 20px;
+    text-align: center;
+}
