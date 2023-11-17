@@ -1,20 +1,17 @@
-/* Réinitialisation des marges et des paddings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Style du corps de la page */
+
+@media only screen and  (max-width:600px)
+{
+body 
+    font-family: Arial, sans-serif;
+    background-color: #c4c3c3a7;
 }
 
-/* Style du corps de la page */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #1dc2d7a7;
-}
 
 /* Style de l'en-tête */
 header {
-    background-color: #021e445b;
-    color: rgb(15, 162, 241);
+    background-color: rgba(109, 105, 105, 0.357);
+    color: rgb(114, 114, 114);
     text-align: center;
     padding: 10px 0;
 }
@@ -24,9 +21,9 @@ header {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: rgb(9, 185, 185);
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(182, 215, 13, 0.1);
+    background-color: rgb(255, 255, 255)1);
+    border-radius: 40px;
+    box-shadow: 0 0 100px rgba(154, 12, 12, 0.1);
     
 }
 
@@ -38,21 +35,16 @@ section h4 {
 
 
 
-/* Style de l'élément de liste */
+/* Grandeur de la  section */
 li {
     margin-bottom: 5px;
 }
-
-/* Style de l'image */
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Style de l'élément aside */
+ 
 aside {
-    background-color: #96d3ea;
-    color: rgb(19, 109, 226);
-    padding: 20px;
-    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #7b7a7a; /* Couleur de fond de la boîte */
+    padding: 10px; /* Espace intérieur de la boîte */
+    border-top-right-radius: 20px; /* Arrondi le coin supérieur droit de la boîte */
 }
