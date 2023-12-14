@@ -1,4 +1,4 @@
-/* Style du corps de la page */
+
 
 @media only screen and  (max-width:600px)
 {
@@ -8,7 +8,7 @@ body
 }
 
 
-/* Style de l'en-tête */
+
 header {
     background-color: rgba(109, 105, 105, 0.357);
     color: rgb(114, 114, 114);
@@ -17,7 +17,7 @@ header {
 }
 
 
-/* Style des sections */
+
 section {
     margin: 20px;
     padding: 20px;
@@ -27,7 +27,7 @@ section {
     
 }
 
-/* espace des titre section */
+
 section h4 {
     margin-bottom: 15px;
 }
@@ -35,7 +35,7 @@ section h4 {
 
 
 
-/* Grandeur de la  section */
+
 li {
     margin-bottom: 5px;
 }
@@ -44,7 +44,7 @@ aside {
     position: fixed;
     bottom: 0;
     right: 0;
-    background-color: #7b7a7a; /* Couleur de fond de la boîte */
-    padding: 10px; /* Espace intérieur de la boîte */
-    border-top-right-radius: 20px; /* Arrondi le coin supérieur droit de la boîte */
+    background-color: #7b7a7a; 
+    padding: 10px; 
+    border-top-right-radius: 20px; 
 }
